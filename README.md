@@ -13,23 +13,24 @@ Klasyczna gra Snake napisana za pomocą języka C++ oraz biblioteki Allegro 5. R
 
   -  **Pierwsze uruchomienie** – ukazuje się ekran startowy. Aby rozpocząć rozgrywkę należy wcisnąć klawisz ENTER – snake rusza od razu.
 
-![Start](https://github.com/hylaj/Snake/assets/135766871/9bde8401-80dc-42ac-a089-71d9f1a9f28b)
+![Start](https://github.com/hylaj/Snake/assets/135766871/4d840a67-0c8d-43d8-8f1e-fe19e993ba24)
 
 
   -  **Rozgrywka** polega na sterowaniu ciałem węża za pomocą klawiszy ←/→ /↑/  ↓ . Snake porusza się cały czas z taką samą prędkością i nie ma      możliwości zatrzymania go. Początkowo jego ciało składa się z 3 elementów. Kiedy głowa snake’a zetknie się z pokarmem, graczowi przyznawany      jest 1 punkt, a ciało snake’a wydłuża się o 1 element. 
 
-![Game](https://github.com/hylaj/Snake/assets/135766871/7e6ddbc6-4bb0-4946-98cd-20c48d5a30f6)
+
+![Game](https://github.com/hylaj/Snake/assets/135766871/e32bd72a-630d-4f4f-8388-7cdf3381fec8)
 
 
   -  **Koniec gry** - Gra się kończy, kiedy snake uderzy głową w ściany planszy bądź w część własnego ciała. Jeśli gracz osiągnie wyższy wynik niż     wszystkie do tej pory, zostanie on zaktualizowany i zapisany w pliku BestScore.txt oraz wyświetlony na ekranie.
 
-![Game over2](https://github.com/hylaj/Snake/assets/135766871/8a72a58b-de7e-4b18-a934-b00546863d03)
+![Game over2](https://github.com/hylaj/Snake/assets/135766871/908b5252-b58d-40cf-9ec3-9b797a7ec51c)
 
 
 
   -   **Restart** – po krótkiej chwili snake jest przywracany do wartości początkowych. Gracz wciskając ENTER ma możliwość rozpoczęcia nowej           rozgrywki. 
 
-![Game over](https://github.com/hylaj/Snake/assets/135766871/7b973826-cfcf-425b-ac7a-12adcd64646d)
+![Game over](https://github.com/hylaj/Snake/assets/135766871/b4b5a48a-d085-4829-a387-70b10166cad9)
 
 
 
@@ -37,17 +38,17 @@ Klasyczna gra Snake napisana za pomocą języka C++ oraz biblioteki Allegro 5. R
 
   -	**Add_Body** - Ciało snake’a jest listą dwukierunkową, której elementy składają się ze współrzędnych x i y, kierunku oraz wskaźników do poprzedniej i następnej części ciała. Kiedy wąż zje pokarm, nowy element wstawiany jest na początek listy i staje się nową głową snake’a.
 
-![Add_Body](https://github.com/hylaj/Snake/assets/135766871/ea1285a8-8f25-4df4-b60e-4f5ee44b55d8)
+![Add_Body](https://github.com/hylaj/Snake/assets/135766871/455b2465-fa2b-4200-a850-ea5806ac1f3b)
 
 
   -	Za poruszanie się snake’a odpowiada funkcja **Move_Snake**, która każdemu elementowi ciała przypisuje współrzędne elementu poprzedzającego. Sterowanie odbywa się głową poprzez dodanie lub odjęcie odpowiedniej ilości pikseli do/od aktualnych współrzędnych, w zależności od obranego przez użytkownika kierunku.
 
-![Move_Snake](https://github.com/hylaj/Snake/assets/135766871/232e1363-4f70-49c7-85a1-b0d75c071fcd)
+![Move_Snake](https://github.com/hylaj/Snake/assets/135766871/7f36524c-4b56-47b0-b292-0d762ca9ebad)
 
 
   -	Funkcja **Generate_Apple** jest wywoływana, kiedy snake zje pokarm, dlatego na samym początku wywołuje ona funkcję Add_Body, która wstawi nową część ciała snake’a. Następnie generuje nowy pokarm, losując wartości jego współrzędnych i kolejno sprawdza, czy wylosowane współrzędne nie kolidują ze współrzędnymi każdego elementu ciała snake’a (lub znajdują się za blisko). Jeśli kolizja wystąpiła, ponawiamy losowanie współrzędnych pokarmu i ponownie sprawdzamy, czy nie ma kolizji. Po wylosowaniu poprawnych współrzędnych następuje losowanie rodzaju pokarmu, za które odpowiada funkcja Apple_lottery.
 
-![Generate_Apple](https://github.com/hylaj/Snake/assets/135766871/07ba215f-ef27-4171-9983-475c894386dd)
+![Generate_Apple](https://github.com/hylaj/Snake/assets/135766871/bb913b72-b8da-47b7-bbec-aaeb40d32cd9)
 
 
 ## Instrukcja instalacji
