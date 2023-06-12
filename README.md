@@ -1,6 +1,7 @@
 # Snake
 Klasyczna gra Snake napisana za pomocą języka C++ oraz biblioteki Allegro 5. Rozgrywka polega na kontrolowaniu stale poruszającego się snake’a i zdobywaniu jedzenia, które powoduje wydłużanie się jego ciała, co znacznie utrudnia grę. Snake ginie, kiedy uderzy własną głową w swoje ciało lub w otaczające planszę ściany. Uwaga: nie ma możliwości zatrzymania snake’a w trakcie rozgrywki.
 
+
 ## Sterowanie
 
   -	  ←/→ /↑/  ↓   - sterowanie ciałem snake’a (zakres ruchów: lewo/prawo/góra/dół)
@@ -55,3 +56,6 @@ Klasyczna gra Snake napisana za pomocą języka C++ oraz biblioteki Allegro 5. R
 
 Gra była tworzona i testowana na systemie Windows 11. 
 Do skompilowania gry wymagana jest instalacja **Visual Studio** (https://visualstudio.microsoft.com/pl/downloads/) oraz biblioteki Allegro 5 w wersji **Allegro 5.2.8**. Należy pobrać archiwum .zip zawierający wszystkie pliki projektu niezbędne do uruchomienia gry, otworzyć plik **.sln**, a następnie zainstalować paczkę Allegro wg tutorialu: https://gamefromscratch.com/allegro-tutorial-series-part-1-getting-started/ . Należy dodać następujące addons: *Image, Font, Truetype Font*.
+
+## Strona
+https://wierzba.wzks.uj.edu.pl/~22_babiarz/snake/snake.html
