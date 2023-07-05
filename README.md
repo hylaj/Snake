@@ -62,9 +62,10 @@ https://wierzba.wzks.uj.edu.pl/~22_babiarz/snake/snake.html
 
 ## Licencja, źródła grafiki
 https://opengameart.org/content/snake-tilemap 
+
 https://opengameart.org/content/food-icons
 
-## Autorzy
+## Autorzy projektu
 Jolanta Hyla, Alicja Babiarz
 
 
