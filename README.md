@@ -59,3 +59,12 @@ Do skompilowania gry wymagana jest instalacja **Visual Studio** (https://visuals
 
 ## Strona
 https://wierzba.wzks.uj.edu.pl/~22_babiarz/snake/snake.html
+
+## Licencja, źródła grafiki
+https://opengameart.org/content/snake-tilemap 
+https://opengameart.org/content/food-icons
+
+## Autorzy
+Jolanta Hyla, Alicja Babiarz
+
+
