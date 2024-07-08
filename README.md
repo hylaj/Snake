@@ -58,7 +58,7 @@ Gra była tworzona i testowana na systemie Windows 11.
 Do skompilowania gry wymagana jest instalacja **Visual Studio** (https://visualstudio.microsoft.com/pl/downloads/) oraz biblioteki Allegro 5 w wersji **Allegro 5.2.8**. Należy pobrać archiwum .zip zawierający wszystkie pliki projektu niezbędne do uruchomienia gry, otworzyć plik **.sln**, a następnie zainstalować paczkę Allegro wg tutorialu: https://gamefromscratch.com/allegro-tutorial-series-part-1-getting-started/ . Należy dodać następujące addons: *Image, Font, Truetype Font*.
 
 ## Strona
-https://wierzba.wzks.uj.edu.pl/~22_babiarz/snake/snake.html
+https://wierzba.wzks.uj.edu.pl/~22_babiarz/inne/snake/snake.html
 
 ## Licencja, źródła grafiki
 https://opengameart.org/content/snake-tilemap 
